@@ -1,6 +1,7 @@
 {
   "title": "moz://a protocol handler",
   "name": "moz-handler",
+  "id": "moz-handler@mozilla.org",
   "version": "0.1.0",
   "description": "a moz: protocol handler for moz://a URLs",
   "main": "index.js",
@@ -12,5 +13,6 @@
   "license": "MPL 2.0",
   "keywords": [
     "jetpack"
-  ]
+  ],
+  "multiprocess": true
 }
