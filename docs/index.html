@@ -1,0 +1,16 @@
+<!doctype html>
+
+<script type="application/javascript">
+const urls = {
+  '':                 'https://mozilla.org',
+  'firefox':          'https://firefox.com/',
+};
+
+const key = new URL(location).searchParams.get('u');
+if (key) {
+  const url = urls[key.substr(7)];
+  if (url) {
+    location.replace(url);
+  }
+}
+</script>
