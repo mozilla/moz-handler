@@ -8,7 +8,7 @@ const urls = {
 
 const key = new URL(location).searchParams.get('u');
 if (key) {
-  const url = urls[key.substr(7)];
+  const url = urls[key.substr(8)];
   if (url) {
     location.replace(url);
   }
