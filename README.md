@@ -1,6 +1,6 @@
 #moz://a protocol handler
 
-A moz: protocol handler for moz://a URLs. Maps moz://a to https://mozilla.org/
+A moz: protocol handler for moz://a URLs. Maps moz://a to https://www.mozilla.org/
 and moz://a/firefox to https://firefox.com/.
 
 Install it from its [addons.mozilla.org listing](https://addons.mozilla.org/en-US/firefox/addon/moz-a-protocol-handler/)
